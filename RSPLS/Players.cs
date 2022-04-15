@@ -10,7 +10,7 @@ namespace RSPLS
             obj is PlayerDefault<Action> player &&
             GetAction() == player.GetAction();
 
-        public override Action GetAction() => Action.Rock;
+        public override int GetAction() => (int)Action.Rock;
         public override string ToString() => "Rock";
     }
 
@@ -22,7 +22,7 @@ namespace RSPLS
             obj is PlayerDefault<Action> player &&
             GetAction() == player.GetAction();
 
-        public override Action GetAction() => Action.Scissors;
+        public override int GetAction() => (int)Action.Scissors;
         public override string ToString() => "Scissors";
     }
 
@@ -34,7 +34,7 @@ namespace RSPLS
             obj is PlayerDefault<Action> player &&
             GetAction() == player.GetAction();
 
-        public override Action GetAction() => Action.Paper;
+        public override int GetAction() => (int)Action.Paper;
         public override string ToString() => "Paper";
     }
 
@@ -46,7 +46,7 @@ namespace RSPLS
             obj is PlayerDefault<Action> player &&
             GetAction() == player.GetAction();
 
-        public override Action GetAction() => Action.Paper;
+        public override int GetAction() => (int)Action.Paper;
         public override string ToString() => "Lizard";
     }
 
@@ -58,7 +58,7 @@ namespace RSPLS
             obj is PlayerDefault<Action> player &&
             GetAction() == player.GetAction();
 
-        public override Action GetAction() => Action.Paper;
+        public override int GetAction() => (int)Action.Paper;
         public override string ToString() => "Spock";
     }
 }

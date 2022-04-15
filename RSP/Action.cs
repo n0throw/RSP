@@ -1,9 +1,8 @@
-﻿namespace RSP
+﻿namespace RSP;
+
+public enum Action : int
 {
-    public enum Action : int
-    {
-        Rock = 1,
-        Scissors,
-        Paper
-    }
+    Rock = 1,
+    Scissors,
+    Paper
 }
